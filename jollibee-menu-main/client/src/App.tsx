@@ -1,5 +1,5 @@
 import { Router, Route } from "wouter";
-import { ErrorBoundary } from "@/components/ErrorBoundary";
+import ErrorBoundary from "@/components/ErrorBoundary";
 import Menu from "@/pages/Menu";
 import Cart from "@/pages/Cart";
 import NotFound from "@/pages/NotFound";
