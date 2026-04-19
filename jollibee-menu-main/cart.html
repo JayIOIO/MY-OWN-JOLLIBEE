@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart - Jollibee</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Header & Navigation -->
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <a href="index.html" class="logo">
+            <div class="logo-icon">J</div>
+            <span>Jollibee</span>
+          </a>
+
+          <nav id="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </nav>
+
+          <div style="display: flex; align-items: center; gap: 20px">
+            <a href="cart.html" class="cart-icon-container">
+              <svg
+                class="cart-icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                />
+              </svg>
+              <div id="cart-badge"></div>
+            </a>
+
+            <button class="hamburger" id="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Header -->
+    <section style="background: linear-gradient(135deg, #E31937 0%, #c41530 100%); color: white; padding: 40px 20px">
+      <div class="container">
+        <h1 style="font-size: 36px">Shopping Cart</h1>
+      </div>
+    </section>
+
+    <!-- Cart Content -->
+    <div class="cart-container">
+      <div id="cart-content">
+        <!-- Cart content will be loaded here by JavaScript -->
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>About Jollibee</h4>
+            <p>
+              Bringing joy and delicious food to your table. Experience the taste of happiness with our signature meals.
+            </p>
+          </div>
+
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Menu Categories</h4>
+            <ul>
+              <li><a href="menu.html?category=chicken">Chicken</a></li>
+              <li><a href="menu.html?category=burgers">Burgers</a></li>
+              <li><a href="menu.html?category=pasta">Pasta</a></li>
+              <li><a href="menu.html?category=desserts">Desserts</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Contact</h4>
+            <ul>
+              <li>📞 1-800-JOLLIBEE</li>
+              <li>📧 support@jollibee.com</li>
+              <li>📍 Available Nationwide</li>
+              <li>🕐 Open 24/7</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Jollibee. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/cart-page.js"></script>
+  </body>
+</html>
